@@ -1,20 +1,19 @@
 #include <stdio.h>
 #include <ctype.h>
-
 /**
- * main - Entry point
- *
- * Return: Always 0 (success)
+ * main - main block
+ * Description: Get a random it with 5
+ * Return: 0
  */
-
 int main(void)
 {
-int lowerCase = 'a';
-while (lowerCase <= 'z')
-}
-putchar(lowerCase);
-lowerCase += 1;
-putchar('\n')
-return (0);
-}
+	char c = 'a';
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
 
+	putchar('\n');
+	return (0);
+}
